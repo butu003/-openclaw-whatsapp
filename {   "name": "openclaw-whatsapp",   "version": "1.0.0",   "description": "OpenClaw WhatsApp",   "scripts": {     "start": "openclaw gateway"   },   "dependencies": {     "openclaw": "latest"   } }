@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.8"
+  },
+  "channels": {
+    "whatsapp": {
+      "enabled": true,
+      "dmPolicy": "open",
+      "allowFrom": ["*"]
+    }
+  },
+  "gateway": {
+    "port": 5000,
+    "mode": "local",
+    "bind": "lan",
+    "controlUi": {
+      "enabled": true,
+      "dangerouslyDisableDeviceAuth": true
+    }
+  }
+}
