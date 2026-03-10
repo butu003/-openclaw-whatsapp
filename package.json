@@ -1,0 +1,11 @@
+{
+  "name": "openclaw-whatsapp",
+  "version": "1.0.0",
+  "description": "OpenClaw WhatsApp",
+  "scripts": {
+    "start": "openclaw gateway"
+  },
+  "dependencies": {
+    "openclaw": "latest"
+  }
+}
